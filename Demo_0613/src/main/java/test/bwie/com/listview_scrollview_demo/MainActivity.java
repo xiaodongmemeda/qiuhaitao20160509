@@ -132,6 +132,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         time--;
                         handlerText.sendEmptyMessageDelayed(1, 1000);
                     }else{
+
                         send_phone.setText("发送验证码");
                         time = 60;
 
@@ -143,7 +144,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     phone_edit_number.setText("");
                     phone_edit_proofness.setText("");
                     send_phone.setEnabled(true);
-                    send_phone.setText("发送验证码");
 
                     break;
                 default:
@@ -170,8 +170,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     handlerText.sendEmptyMessage(2);
 
                 } else if (event == SMSSDK.EVENT_GET_VERIFICATION_CODE){//服务器验证码发送成功
-                    reminderText();
+
                     Toast.makeText(getApplicationContext(), "验证码已经发送", Toast.LENGTH_SHORT).show();
+                    reminderText();
                 }else if (event ==SMSSDK.EVENT_GET_SUPPORTED_COUNTRIES){//返回支持发送验证码的国家列表
                     Toast.makeText(getApplicationContext(), "获取国家列表成功", Toast.LENGTH_SHORT).show();
                 }
