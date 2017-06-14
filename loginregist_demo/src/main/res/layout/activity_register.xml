@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="qiuhaitao.bwie.com.loginregist_demo.Register">
+    <EditText android:id="@+id/register_user"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="请输入账号"
+    />
+    <EditText android:id="@+id/register_password"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="请输入密码"
+    />
+    <EditText android:id="@+id/register_password2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="请再次输入密码"
+    />
+    <EditText android:id="@+id/register_email"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="请输入邮箱"
+    />
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/register_register"
+            android:text="注册"
+    />
+</LinearLayout>

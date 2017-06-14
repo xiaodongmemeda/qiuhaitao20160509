@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="test.bwei.com.demo_dragchannel.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:textSize="15dp"
+            android:paddingLeft="20dp"
+            android:text="我的频道" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="10dp"
+            android:text="长按拖拽替换位置"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/editor_sp"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="编辑"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+    <View android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="@color/colorAccent"
+    />
+    <android.support.v7.widget.RecyclerView android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:id="@+id/myrecyclerview"
+    >
+    </android.support.v7.widget.RecyclerView>
+    <View android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="@color/colorAccent"
+    />
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="50dp"
+                  android:gravity="center"
+                  android:orientation="horizontal"
+    >
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:paddingLeft="20dp"
+                  android:text="其他频道"
+                  android:textSize="15dp"
+                  android:gravity="center|left"
+        />
+        <TextView android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:paddingLeft="20dp"
+                  android:textSize="15dp"
+                  android:text="点击添加替换我的频道中"
+                  android:gravity="center_vertical|left"
+
+        />
+    </LinearLayout>
+    <View android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="@color/colorAccent"
+    />
+    <android.support.v7.widget.RecyclerView android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:id="@+id/otherrecyclerview"/>
+
+</LinearLayout>

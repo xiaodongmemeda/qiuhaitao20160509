@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.app_update_demo.Main2Activity">
+    <ImageView android:layout_width="368dp"
+               android:layout_height="495dp"
+               android:src="@mipmap/tp5"
+               android:id="@+id/imageview"
+               android:scaleType="matrix"
+              />
+</android.support.constraint.ConstraintLayout>

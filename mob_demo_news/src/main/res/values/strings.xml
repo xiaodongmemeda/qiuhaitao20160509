@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Mob_Demo_news</string>
+    <string name="home">首页</string>
+    <string name="video">视频</string>
+    <string name="headline">微头条</string>
+    <string name="nologin">未登录</string>
+    <string name="name">今日头条</string>
+    <string name="wei">未注册手机验证后自动登录</string>
+    <string name="phone_text">登录你的头条，精彩永不丢失</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="out_circle_width" format="integer" />
+    <attr name="out_circle_color" format="color" />
+
+
+    <declare-styleable name="Progress">
+        <attr name="out_circle_width"  />
+        <attr name="out_circle_color" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+>
+
+    <!--   <test.qht.com.test_view.MyView android:layout_width="100dp"
+                                      android:layout_height="100dp"
+                                      android:id="@+id/myView"
+       />-->
+
+    <!--<test.qht.com.test_view.MyTextView android:layout_width="122dp"
+                                       android:layout_height="33dp"
+                                       android:layout_marginTop="18dp"
+
+                                       my:titleText="么么哒 哒"
+                                       my:titleTextColor="@color/colorAccent"
+                                       my:titleTextSize="22dp"
+                                       android:id="@+id/mytextview"
+    />-->
+    <test.qht.com.test_view.MyViewGroup android:id="@+id/myviewgroup"
+                                        android:layout_width="300dp"
+                                        android:layout_height="100dp"
+                                        android:layout_marginTop="18dp"
+                                        android:background="#AA333333"
+    >
+        <test.qht.com.test_view.MyTextView android:id="@+id/mytextview1"
+                                           android:layout_width="88dp"
+                                           android:layout_height="33dp"
+                                           my:titleText="么么哒 哒"
+                                           my:titleTextColor="@color/colorAccent"
+                                           my:titleTextSize="12dp"
+        />
+        <test.qht.com.test_view.MyTextView android:id="@+id/mytextview2"
+                                           android:layout_width="88dp"
+                                           android:layout_height="33dp"
+                                           my:titleText="么么哒 哒"
+                                           my:titleTextColor="@color/colorAccent"
+                                           my:titleTextSize="12dp"
+        />
+        <test.qht.com.test_view.MyTextView android:id="@+id/mytextview3"
+                                           android:layout_width="88dp"
+                                           android:layout_height="33dp"
+                                           my:titleText="么么哒 哒"
+                                           my:titleTextColor="@color/colorAccent"
+                                           my:titleTextSize="12dp"
+        />
+        <test.qht.com.test_view.MyTextView android:id="@+id/mytextview4"
+                                           android:layout_width="88dp"
+                                           android:layout_height="33dp"
+                                           my:titleText="么么哒 哒"
+                                           my:titleTextColor="@color/colorAccent"
+                                           my:titleTextSize="12dp"
+        />
+
+
+        <!--<TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#FF4444"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#00ff00"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#ff0000"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#0000ff"
+            android:gravity="center"
+            android:text="3"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+-->
+    </test.qht.com.test_view.MyViewGroup>
+    <test.qht.com.test_view.TesstViewGroup android:layout_width="wrap_content"
+                                           android:layout_height="wrap_content"
+                                           android:layout_below="@id/myviewgroup"
+                                           android:layout_marginTop="18dp"
+                                           android:background="#AA333333"
+    >
+        <test.qht.com.test_view.MyTextView android:id="@+id/test_gp_mytextview1"
+                                           android:layout_width="88dp"
+                                           android:layout_height="33dp"
+                                           my:titleText="么么哒 哒"
+                                           my:titleTextColor="@color/colorAccent"
+                                           my:titleTextSize="12dp"/>
+        <test.qht.com.test_view.MyTextView android:id="@+id/test_gp_mytextview2"
+                                           android:layout_width="88dp"
+                                           android:layout_height="33dp"
+                                           my:titleText="么么哒 哒"
+                                           my:titleTextColor="@color/colorAccent"
+                                           my:titleTextSize="12dp"/>
+        <test.qht.com.test_view.MyTextView android:id="@+id/test_gp_mytextview3"
+                                           android:layout_width="88dp"
+                                           android:layout_height="33dp"
+                                           my:titleText="么么哒 哒"
+                                           my:titleTextColor="@color/colorAccent"
+                                           my:titleTextSize="12dp"/>
+        <test.qht.com.test_view.MyTextView android:id="@+id/test_gp_mytextview4"
+                                           android:layout_width="88dp"
+                                           android:layout_height="13dp"
+                                           my:titleText="么么哒 哒"
+                                           my:titleTextColor="@color/colorAccent"
+                                           my:titleTextSize="12dp"/>
+        <test.qht.com.test_view.MyTextView android:id="@+id/test_gp_mytextview5"
+                                           android:layout_width="88dp"
+                                           android:layout_height="33dp"
+                                           my:titleText="么么哒 哒"
+                                           my:titleTextColor="@color/colorAccent"
+                                           my:titleTextSize="12dp"/>
+        <test.qht.com.test_view.MyTextView android:id="@+id/test_gp_mytextview6"
+                                           android:layout_width="88dp"
+                                           android:layout_height="23dp"
+                                           my:titleText="么么哒 哒"
+                                           my:titleTextColor="@color/colorAccent"
+                                           my:titleTextSize="12dp"/>
+    </test.qht.com.test_view.TesstViewGroup>
+    <Button android:id="@+id/bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="jump"
+    />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/hello1"
+              android:layout_alignParentBottom="true"
+              android:layout_centerHorizontal="true"
+    />
+</RelativeLayout>

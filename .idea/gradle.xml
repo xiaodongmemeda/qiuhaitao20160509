@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Demo_0613" />
+            <option value="$PROJECT_DIR$/XListView-master" />
+            <option value="$PROJECT_DIR$/a" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/demo_dragchannel" />
+            <option value="$PROJECT_DIR$/eventbus_demo" />
+            <option value="$PROJECT_DIR$/flowlayout-lib" />
+            <option value="$PROJECT_DIR$/loginregist_demo" />
+            <option value="$PROJECT_DIR$/mob_demo" />
+            <option value="$PROJECT_DIR$/mob_demo_news" />
+            <option value="$PROJECT_DIR$/month_demoa" />
+            <option value="$PROJECT_DIR$/mvp_demo" />
+            <option value="$PROJECT_DIR$/mvp_demo2" />
+            <option value="$PROJECT_DIR$/myapplication" />
+            <option value="$PROJECT_DIR$/progress_demo" />
+            <option value="$PROJECT_DIR$/recyclerview_demo" />
+            <option value="$PROJECT_DIR$/rxjava_demo" />
+            <option value="$PROJECT_DIR$/search_demo" />
+            <option value="$PROJECT_DIR$/test_downloading" />
+            <option value="$PROJECT_DIR$/test_view" />
+            <option value="$PROJECT_DIR$/u" />
+            <option value="$PROJECT_DIR$/umen_demo" />
+            <option value="$PROJECT_DIR$/uploading_demo" />
+            <option value="$PROJECT_DIR$/xlistview" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

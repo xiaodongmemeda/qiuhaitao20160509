@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Demo_0613/Demo_0613.iml" filepath="$PROJECT_DIR$/Demo_0613/Demo_0613.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XListView-master/XListView-master.iml" filepath="$PROJECT_DIR$/XListView-master/XListView-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/a/a.iml" filepath="$PROJECT_DIR$/a/a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_dragchannel/demo_dragchannel.iml" filepath="$PROJECT_DIR$/demo_dragchannel/demo_dragchannel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eventbus_demo/eventbus_demo.iml" filepath="$PROJECT_DIR$/eventbus_demo/eventbus_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flowlayout-lib/flowlayout-lib.iml" filepath="$PROJECT_DIR$/flowlayout-lib/flowlayout-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo_0613/listview_scrollview_demo.iml" filepath="$PROJECT_DIR$/Demo_0613/listview_scrollview_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loginregist_demo/loginregist_demo.iml" filepath="$PROJECT_DIR$/loginregist_demo/loginregist_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mob_demo/mob_demo.iml" filepath="$PROJECT_DIR$/mob_demo/mob_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mob_demo_news/mob_demo_news.iml" filepath="$PROJECT_DIR$/mob_demo_news/mob_demo_news.iml" />
+      <module fileurl="file://$PROJECT_DIR$/month_demoa/month_demoa.iml" filepath="$PROJECT_DIR$/month_demoa/month_demoa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvp_demo/mvp_demo.iml" filepath="$PROJECT_DIR$/mvp_demo/mvp_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvp_demo2/mvp_demo2.iml" filepath="$PROJECT_DIR$/mvp_demo2/mvp_demo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/progress_demo/progress_demo.iml" filepath="$PROJECT_DIR$/progress_demo/progress_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qiuhaitao20160509.iml" filepath="$PROJECT_DIR$/qiuhaitao20160509.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerview_demo/recyclerview_demo.iml" filepath="$PROJECT_DIR$/recyclerview_demo/recyclerview_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rxjava_demo/rxjava_demo.iml" filepath="$PROJECT_DIR$/rxjava_demo/rxjava_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/search_demo/search_demo.iml" filepath="$PROJECT_DIR$/search_demo/search_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test_downloading/test_downloading.iml" filepath="$PROJECT_DIR$/test_downloading/test_downloading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test_view/test_view.iml" filepath="$PROJECT_DIR$/test_view/test_view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u/u.iml" filepath="$PROJECT_DIR$/u/u.iml" />
+      <module fileurl="file://$PROJECT_DIR$/umen_demo/umen_demo.iml" filepath="$PROJECT_DIR$/umen_demo/umen_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uploading_demo/uploading_demo.iml" filepath="$PROJECT_DIR$/uploading_demo/uploading_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xlistview/xlistview.iml" filepath="$PROJECT_DIR$/xlistview/xlistview.iml" />
+    </modules>
+  </component>
+</project>
