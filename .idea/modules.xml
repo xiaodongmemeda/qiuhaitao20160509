@@ -7,9 +7,13 @@
       <module fileurl="file://$PROJECT_DIR$/a/a.iml" filepath="$PROJECT_DIR$/a/a.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_0614/demo_0614.iml" filepath="$PROJECT_DIR$/demo_0614/demo_0614.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_0614_zxing/demo_0614_zxing.iml" filepath="$PROJECT_DIR$/demo_0614_zxing/demo_0614_zxing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_0615_zxing/demo_0615_zxing.iml" filepath="$PROJECT_DIR$/demo_0615_zxing/demo_0615_zxing.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_dragchannel/demo_dragchannel.iml" filepath="$PROJECT_DIR$/demo_dragchannel/demo_dragchannel.iml" />
       <module fileurl="file://$PROJECT_DIR$/eventbus_demo/eventbus_demo.iml" filepath="$PROJECT_DIR$/eventbus_demo/eventbus_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/flowlayout-lib/flowlayout-lib.iml" filepath="$PROJECT_DIR$/flowlayout-lib/flowlayout-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-zxing/lib-zxing.iml" filepath="$PROJECT_DIR$/lib-zxing/lib-zxing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libzxing/libzxing.iml" filepath="$PROJECT_DIR$/libzxing/libzxing.iml" />
       <module fileurl="file://$PROJECT_DIR$/Demo_0613/listview_scrollview_demo.iml" filepath="$PROJECT_DIR$/Demo_0613/listview_scrollview_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/loginregist_demo/loginregist_demo.iml" filepath="$PROJECT_DIR$/loginregist_demo/loginregist_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mob_demo/mob_demo.iml" filepath="$PROJECT_DIR$/mob_demo/mob_demo.iml" />
