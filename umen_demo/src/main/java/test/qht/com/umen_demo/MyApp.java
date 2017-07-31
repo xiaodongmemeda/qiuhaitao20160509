@@ -2,6 +2,7 @@ package test.qht.com.umen_demo;
 
 import android.app.Application;
 
+import com.facebook.drawee.backends.pipeline.Fresco;
 import com.umeng.socialize.PlatformConfig;
 import com.umeng.socialize.UMShareAPI;
 
@@ -20,6 +21,7 @@ public class MyApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        Fresco.initialize(this);
         UMShareAPI.get(this);
         SMSSDK.initSDK(this, "1cf90ed6a74cd", "61737dfe855cbae4edc42ec4413d384d");
     }

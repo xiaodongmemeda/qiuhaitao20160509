@@ -1,6 +1,7 @@
 package test.qht.com.umen_demo;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -10,6 +11,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.facebook.drawee.view.SimpleDraweeView;
 import com.umeng.socialize.ShareAction;
 import com.umeng.socialize.UMAuthListener;
 import com.umeng.socialize.UMShareAPI;
@@ -76,6 +78,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     break;
                 case ACTION_GET_PROFILE:
                     Glide.with(MainActivity.this).load(map.get("iconurl")).into(img);
+                    draweeView.setImageURI(Uri.parse(map.get("iconurl")));
                     text1.setText(map.get("name"));
                    /* ImageLoader.getInstance().displayImage(map.get("iconurl"), mImageView);
                     mTextView.setText(map.get("name"));*/
@@ -99,6 +102,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private TextView text1;
     private Button mob;
+    private SimpleDraweeView draweeView;
 
     private void initPlatforms() {
         platforms.clear();
@@ -122,6 +126,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         share = (Button) findViewById(R.id.share);
         img = (CircleImageView) findViewById(R.id.img);
         text1 = (TextView) findViewById(R.id.text1);
+        draweeView = (SimpleDraweeView) findViewById(R.id.my_image_view);
 
         login.setOnClickListener(this);
         share.setOnClickListener(this);
