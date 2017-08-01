@@ -16,15 +16,32 @@ import java.util.List;
 public class RecyAda extends RecyclerView.Adapter<RecyAda.MyViewHolder> {
     List<String> list = new ArrayList<>();
     Context context;
-
+    private RecyOnClick onClick;
     public RecyAda(Context context) {
         this.context = context;
     }
-
+    public void setOnClick(RecyOnClick recyOnClick){
+        this.onClick = recyOnClick;
+    }
     @Override
-    public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public MyViewHolder onCreateViewHolder(final ViewGroup parent, int viewType) {
         View view = View.inflate(context,R.layout.item,null);
-        MyViewHolder holder = new MyViewHolder(view);
+        final MyViewHolder holder = new MyViewHolder(view);
+        view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int position = holder.getLayoutPosition();
+                onClick.onClick(v,position);
+            }
+        });
+        view.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                int position = holder.getLayoutPosition();
+                onClick.onLongClick(v,position);
+                return false;
+            }
+        });
         return holder;
     }
 
